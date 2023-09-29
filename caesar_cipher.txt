@@ -1,0 +1,17 @@
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+ghijklmnopqrstuvwxyzabcdef
+mgrgj
+
+- It seems impossible for me to decode someone elses cipher
+
+>>> ord(d)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'd' is not defined. Did you mean: 'id'?
+>>> chr(code)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'code' is not defined
+>>> 
+
+- I am not sure why I couldn't get this to work. It seems to not have access to ASCII conversion values so I am assuming I need to import something in my terminal along with python3.
